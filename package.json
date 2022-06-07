@@ -34,7 +34,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "node ./src/server.js"
+    "start": "nodemon --files ./src/server.ts"
   },
   "browserslist": {
     "production": [
