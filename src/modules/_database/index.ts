@@ -9,7 +9,7 @@ app.use(cors());
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 
-const URL = "mongodb+srv://stormyy:345123@stormydb.fjeoezk.mongodb.net/?retryWrites=true&w=majority";
+const URL: any = process.env.URL;
 mongoose.connect(URL)
     .catch(err => {
         throw err
