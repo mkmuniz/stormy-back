@@ -28,7 +28,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "ts-node --files ./src/server.ts"
+    "start": "nodemon --files ./src/server.ts"
   },
   "browserslist": {
     "production": [
